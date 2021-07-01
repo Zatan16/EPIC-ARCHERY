@@ -21,7 +21,7 @@ class Player {
         rotate(angle);
         imageMode(CENTER);
 
-        image(this.image, 0, 0, this.w, this.h);
+        image(this.img, 0, 0, this.w, this.h);
         pop();
     }
 }
